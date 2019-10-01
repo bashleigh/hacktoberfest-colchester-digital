@@ -1,0 +1,17 @@
+{
+  "name": "hacktoberfest-colchester-digital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bashleigh/hacktoberfest-colchester-digital.git",
+  "author": "Ashleigh <ashleigh.simonelli@velocityapp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/ts-node src/index.ts",
+    "build": "rm -rf dist && tsc -p ."
+  }
+}
